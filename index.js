@@ -151,3 +151,7 @@ logo.style.color = "blue";
 function register(){
     return alert("User registered")
 }
+
+function login(){
+    return alert("Welcome back")
+}
