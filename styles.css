@@ -1,0 +1,90 @@
+/* Targetting a HTML tag */
+body {
+    background-color: rgb(226, 240, 205);
+    margin: 0;
+    padding: 0;
+}
+
+/* targeting an id */
+#main-heading {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* targetting a class */
+.header-message{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.about-us{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.buttons {
+    margin-right: 100px;
+}
+
+.buttons button{
+    padding:6px;
+    border: 1px solid rgb(148, 245, 148);
+    background-color: white;
+    margin-right: 10px;
+}
+
+.buttons button:hover{
+    box-shadow: 1px 1px 3px 3px #4cfe06;
+}
+
+.hero-img img{
+    width: 80%;
+    height: 50vh;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-text {
+    margin-right: 20px;
+}
+
+.hero-text h3{
+    font-size: 25px;
+}
+
+.sessions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img{
+    width: 90%;
+    height: 20vh;
+}
+
